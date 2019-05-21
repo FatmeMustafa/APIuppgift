@@ -29,3 +29,22 @@
 ```
 ### Response
 `Status code: 201 (Created)`
+
+
+# /posts/{postId}
+
+## GET
+### Request
+`curl -i -X GET api.softhouse.rocks/posts/3`
+
+### Response
+`Status code: 200 (OK) (Even when not found)`
+```
+ {
+  "_id": "5caaef896b334800cbf6633e",
+  "userId": 1,
+  "id": 3,
+  "title": "some other name",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+  "__v": 0
+}
