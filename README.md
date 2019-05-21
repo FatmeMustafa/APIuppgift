@@ -48,3 +48,18 @@
   "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
   "__v": 0
 }
+
+```
+
+## PUT
+### Request
+```
+  curl -i -X PUT  api.softhouse.rocks/posts/3 -H "Content-type:application/json" -d '{
+  "title": "string",
+  "body": "string",
+  "userId": 1
+  }'
+  ```
+  
+### Response
+`Status code: 200 (OK)`
