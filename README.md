@@ -6,8 +6,8 @@
 
 ### Response
 `curl -i -X GET api.softhouse.rocks/posts`
-```
 `Status code: 200 (OK)`
+
 ```
 [
   {
