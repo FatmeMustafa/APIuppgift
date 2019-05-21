@@ -2,10 +2,8 @@
 
 ## GET
 ### Request
-`curl -X GET api.softhouse.rocks/posts`
-
-### Response
 `curl -i -X GET api.softhouse.rocks/posts`
+### Response
 `Status code: 200 (OK)`
 
 ```
@@ -29,4 +27,6 @@
   "userId": number excisting
   }'
 ```
+### Response
+`Status code: 201 (Created)`
   
