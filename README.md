@@ -19,3 +19,14 @@
     "__v": 0
   },
   ```
+  
+## POST
+### Request
+```
+  curl -i -X POST -H "Content-Type:application/json" api.softhouse.rocks/posts -d'{
+  "title": "string",
+  "body": "string",
+  "userId": number excisting
+  }'
+```
+  
