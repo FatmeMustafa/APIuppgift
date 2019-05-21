@@ -1,6 +1,5 @@
 # APIuppgift
 
-```
 ## GET /POSTS
 ### Request:
 `curl -X GET api.softhouse.rocks/posts`
