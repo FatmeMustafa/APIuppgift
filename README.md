@@ -22,11 +22,10 @@
 ### Request
 ```
   curl -i -X POST -H "Content-Type:application/json" api.softhouse.rocks/posts -d'{
-  "title": "string",
-  "body": "string",
-  "userId": number excisting
+  "title": "Hi, World",
+  "body": "Fresh as morning dew",
+  "userId": "1"
   }'
 ```
 ### Response
 `Status code: 201 (Created)`
-  
